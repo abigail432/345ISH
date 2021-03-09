@@ -26,8 +26,8 @@ Testing your Server
 3. Create a folder named test 
 4. Create a file named test.php
 5. Include this test code:
-
-<html>
+ ```
+ <html>
  <head>
   <title>PHP-Test</title>
  </head>
@@ -35,6 +35,7 @@ Testing your Server
   <?php echo '<p>Hello World</p>'; ?>
  </body>
 </html>
+```
 
 6. Check to see if your PHP page is loading by going to localhost/test/test.php in your browser
 7. Hello World should appear if everything is working!
