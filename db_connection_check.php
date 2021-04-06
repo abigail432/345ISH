@@ -6,8 +6,7 @@ $conn = OpenCon();
 echo "Connected Successfully";
 
 $result=mysqli_query($conn,"select * from users");
-mysqli_query($conn,"insert into users (Username, Password) values('Quack', 'DuckDuckGoose')");
-
+//mysqli_query($conn,"insert into users (Username, Password) values('Quack', 'DuckDuckGoose')");
 
 while($row=mysqli_fetch_array($result))
 {
