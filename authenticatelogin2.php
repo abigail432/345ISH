@@ -5,11 +5,11 @@ $conn = OpenCon();
 
 $username = "arelliott";
 $password = "andiloop";
-$result=mysqli_query($conn,"select Password from users where Username = '$username'");
+$result=mysqli_query($conn,"select * from users");
 
 while($row=mysqli_fetch_array($result))
 {
-    if($row['Password']==$password){
+    if($row['Password']==$password && $row['Username']==$username){
         echo "password correct".'<br/>';
         header("Location: loginpage.php")
     }   
