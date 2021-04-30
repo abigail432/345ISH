@@ -41,3 +41,20 @@ Testing your Server
 7. Hello World should appear if everything is working!
 
 Resources followed: https://www.ionos.com/digitalguide/server/tools/xampp-tutorial-create-your-own-local-test-server/
+
+#Creating a mySQL Database with phpmyAdmin
+
+Once you have successfully downloaded XAAMP and tested your test.php file, you are ready to check out our web form!
+In order to access our web form, you must locally create a database of users to be able to login to our website
+
+1. Navigate to XAMPP and start the Apache and MySQL modules
+2. Navigate to http://localhost/phpmyadmin
+3. You will see a number of tabs such as Database, SQL, User Accounts etc. - you will be able to create a      database scheme here!
+4. Click on the 'database' tab and click the create database button 
+5. This is very important- name your database schema users_ish 
+6. After your database is succesfully created, you have to create tables to store information
+7. In the created database (users_ish), click on the 'structure' tab and click 'create table'
+8. This is very important - name your table 'users' with 2 columns
+9. Name your columns 'username' and 'password' - both will be of type varchar(100) and username can be a      primary key
+10. You can create as many rows as you wish and can have any username and passwords you would like
+11. These are the usernames and passwords that will allow you to use the login form provided
