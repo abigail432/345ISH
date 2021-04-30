@@ -61,7 +61,7 @@ In order to access our web form, you must locally create a database of users to 
 12. Use the 'insert' tab to provide values for the username and password columns
 13. Now you have successfully created a database and table, see image below to see the basic structure of the database
 
-
+![users](https://user-images.githubusercontent.com/64918144/116747695-4b7f7980-a9cc-11eb-8d94-b1c8cec6209e.png)
 
 Resources followed: http://www.cs.virginia.edu/~up3f/cs4750/supplement/DB-setup-xampp.html
 
