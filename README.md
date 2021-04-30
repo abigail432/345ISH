@@ -42,7 +42,7 @@ Testing your Server
 
 Resources followed: https://www.ionos.com/digitalguide/server/tools/xampp-tutorial-create-your-own-local-test-server/
 
-#Creating a mySQL Database with phpmyAdmin
+# Creating a mySQL Database with phpmyAdmin
 
 Once you have successfully downloaded XAAMP and tested your test.php file, you are ready to check out our web form!
 In order to access our web form, you must locally create a database of users to be able to login to our website
