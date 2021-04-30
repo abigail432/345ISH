@@ -11,7 +11,7 @@ while($row=mysqli_fetch_array($result))
 {
     if($row['Password']==$password && $row['Username']==$username){
         echo "password correct".'<br/>';
-        header("Location: loginpage.php")
+        header("Location: successful_login.php");
     }   
     else{
         echo "alert('Password incorrect')";

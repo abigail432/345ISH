@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<form action="authenticatelogin.php" method="post">
+	<form action="authenticatelogin2.php" method="post">
 		<div class="login-box">
 			<h1>Login</h1>
 

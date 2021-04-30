@@ -14,7 +14,7 @@ while($row=mysqli_fetch_array($result))
 {
     if($row['Password']==$password){
         echo "password correct".'<br/>';
-        header("Location: loginpage.php");
+        header("Location: successful_login.php");
     }   
     else{
         echo "Password incorrect";
