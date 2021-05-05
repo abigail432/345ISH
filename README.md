@@ -44,7 +44,7 @@ Resources followed: https://www.ionos.com/digitalguide/server/tools/xampp-tutori
 
 # Creating a mySQL Database with phpmyAdmin
 
-Once you have successfully downloaded XAAMP and tested your test.php file, you are ready to check out our web form!
+Once you have successfully downloaded XAMPP and tested your test.php file, you are ready to check out our web form!
 In order to access our web form, you must locally create a database of users to be able to login to our website
 
 1. Navigate to XAMPP and start the Apache and MySQL modules
