@@ -4,8 +4,8 @@ include 'db_connection.php';
 $conn = OpenCon();
 
 if ($_SERVER["REQUEST_METHOD"]=="POST"){
-    $username = $_POST["username"];
-    $password = $_POST["password"];
+$username = $_POST["username"];
+$password = $_POST["password"];
 }
 
 $results=mysqli_query($conn,"select * from users");
